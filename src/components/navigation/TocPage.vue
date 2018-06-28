@@ -74,6 +74,11 @@ export default {
           padding-left 4rem
           color dim
 
+.ni-text-container
+  .minimal-toc
+    ul, ol
+      padding-left 0
+
 @media screen and (min-width: 768px)
   .minimal-toc
     padding 3rem

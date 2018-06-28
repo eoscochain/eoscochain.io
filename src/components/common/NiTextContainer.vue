@@ -61,9 +61,9 @@ export default {
     word-break break-word
 
   pre
-    margin-left -1rem
-    margin-right -1rem
-    overflow-x scroll
+    // margin-left -1rem
+    // margin-right -1rem
+    overflow-x auto
     padding 0.375rem 0.5rem
     line-height 1.125
     background app-fg
@@ -164,6 +164,9 @@ export default {
       &:last-child
         margin-bottom 0
 
+    ul, ol
+      padding-left 0.5rem
+
 
   p, hr, ul, ol, table, pre,  figcaption,  blockquote,  img,  iframe,  .ni-btn
     margin-bottom 1.5em
@@ -173,7 +176,7 @@ export default {
     content "\00a0"
 
   ul, ol
-    // padding-left 1.5em
+    padding-left 1.5em
 
     ulpadding-left, ol
       margin-bottom 0
@@ -184,7 +187,7 @@ export default {
 
   ul
     li
-      list-style square
+      list-style disc
   ol
     li
       list-style decimal

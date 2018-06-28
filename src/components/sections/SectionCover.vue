@@ -139,7 +139,7 @@ export default {
 
 @media screen and (max-device-width: 2880px) and (max-device-height: 1800px)
   .section-cover__container
-    background-image url('~assets/images/backgrounds/bg-1800p.png')
+    background-image url('~assets/images/backgrounds/bg-1800p.jpg')
 
 @media screen and (min-device-width: 2881px) and (min-device-height: 1801px)
   .section-cover__container
