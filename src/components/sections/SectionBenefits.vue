@@ -1,7 +1,7 @@
 <template lang='pug'>
 .section-why
   .section-home.section-home-benefits: .section-home__container
-    .section-home__header Why Use Cosmos?
+    .section-home__header {{ $t('WhyUseEOSCochain') }}
     .section-home__main
       .cosmos-panels
         .cosmos-panel
@@ -9,8 +9,8 @@
             img.cosmos-panel__img(
               src="images/diagrams/panel-interoperability.png")
           .cosmos-panel__text
-            .cosmos-panel__title Interoperable
-            .cosmos-panel__body The Cosmos Network is built to allow many independent blockchains — public and private — to communicate and exchange value with one another.
+            .cosmos-panel__title {{ $t('Interoperable') }}
+            .cosmos-panel__body {{ $t('InteroperableDescription') }}
             .cosmos-panel__action
               router-link(:to="{ name: 'intro'}") Interblockchain Comms &rsaquo;
 
@@ -19,8 +19,8 @@
             img.cosmos-panel__img(
               src="images/diagrams/panel-scalability.png")
           .cosmos-panel__text
-            .cosmos-panel__title Scalable
-            .cosmos-panel__body By leveraging interoperability and Tendermint’s Proof-of-Stake algorithm, Cosmos provides unprecedented levels of scalability for blockchain networks.
+            .cosmos-panel__title {{ $t('Scalable') }}
+            .cosmos-panel__body {{ $t('ScalableDescription') }}
             .cosmos-panel__action
               router-link(:to="{ name: 'scaling-eth'}") Scaling Ethereum &rsaquo;
 
@@ -29,8 +29,8 @@
             img.cosmos-panel__img(
               src="images/diagrams/panel-developer-friendly.png")
           .cosmos-panel__text
-            .cosmos-panel__title Developer Friendly
-            .cosmos-panel__body Cosmos was designed with developers in mind. Thanks to Tendermint’s Application Blockchain Interface, it’s easy to build blockchains in any programming language.
+            .cosmos-panel__title {{ $t('DeveloperFriendly') }}
+            .cosmos-panel__body  {{ $t('DeveloperFriendlyDescription') }}
             .cosmos-panel__action
               router-link(:to="{ name: 'developers'}") Cosmos for Developers &rsaquo;
 </template>

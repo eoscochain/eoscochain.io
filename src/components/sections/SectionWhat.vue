@@ -1,10 +1,10 @@
 <template lang='pug'>
 #section-what.section-home.section-what: .section-home__container
-  .section-home__header What is Cosmos?
+  .section-home__header {{ $t('What is EOS Cochain?') }}
   .section-home__main
     .section-home__text
-      .section-home__p Cosmos is a decentralized network of independent parallel blockchains, each powered by classical BFT consensus algorithms like #[a(href="https://tendermint.com" target="_blank") Tendermint].
-      .section-home__p The first blockchain in the Cosmos Network is the Cosmos Hub, whose native token is the Atom. Cosmos is a permissionless network, meaning that anybody can build a blockchain on it.
+      .section-home__p {{ $t('WhatIsPartI') }}
+      .section-home__p  {{ $t('WhatIsPartII') }}
     .section-home__diagrams
       .cosmos-diagram: .cosmos-diagram__container
         .cosmos-diagram__image: img.cosmos-diagram__img(
@@ -27,7 +27,11 @@
         .cosmos-diagram__label
           | #[router-link(:to="{ name: 'faq' }") Atoms] are a license for holders to stake and vote on the Cosmos Hub.
     .section-home__action
-      router-link(:to="{ name: 'intro'}") Introduction to Cosmos &rsaquo;
+      div
+        .intro
+          router-link(:to="{ name: 'intro'}") {{ $t('IntroductionToEOSCochain') }} &rsaquo;
+        .whitepaper
+          router-link(:to="{ name: 'whitepaper'}") {{ $t('ViewWhitepaper') }} &rsaquo;
 </template>
 
 <script>
@@ -74,8 +78,12 @@ export default {
     margin-bottom 0
 
 .section-home__action
-  display block
-  text-align center
+  display flex
+  flex-wrap wrap
+  justify-content center
+
+  .whitepaper
+    margin-top 0.3rem
 
 .section-home__diagrams
   margin -0.5rem

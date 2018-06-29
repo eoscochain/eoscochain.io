@@ -33,5 +33,21 @@ export default {
   GetNewsletter: 'Get News letter',
 
   'What is EOS Cochain?': 'What is EOS Cochain?',
-  'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.'
+  'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.',
+
+  WhatIsPartI: '', // TODO
+  WhatIsPartII: '', // TODO
+
+  IntroductionToEOSCochain: 'Introduction to EOS Cochain',
+  ViewWhitepaper: 'View EOS Cochain whitepaper',
+
+  WhyUseEOSCochain: 'Why use EOS Cochain',
+  Interoperable: 'Interoperable',
+  InteroperableDescription: '', // TODO
+
+  Scalable: 'Scalable',
+  ScalableDescription: '', // TODO
+
+  DeveloperFriendly: 'Developer Friendly',
+  DeveloperFriendlyDescription: '', // TODO
 }

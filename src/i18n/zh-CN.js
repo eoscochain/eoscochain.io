@@ -33,5 +33,21 @@ export default {
   GetNewsletter: '获取新闻通知',
 
   'What is EOS Cochain?': 'EOS Cochain是什么？',
-  'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链'
+  'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链',
+
+  WhatIsPartI: 'EOS Cochain是EOS的同构并行链，帮助EOS连接多链互联生态。',
+  WhatIsPartII: '作为可与EOS主链互操作的第一条并行链，EOS Cochain力图实现安全可靠、快捷便利的跨链资产转移、跨链智能合约调用。任何人都可以在EOS Cochain并行链上开发或使用跨链DAPP。',
+
+  IntroductionToEOSCochain: '查看EOS Cochain介绍',
+  ViewWhitepaper: '阅读EOS Cochain白皮书',
+
+  WhyUseEOSCochain: '为什么使用EOS Cochain',
+  Interoperable: '互操作性',
+  InteroperableDescription: 'EOS Cochain并行链允许EOS主链与主流公有链、联盟链、私有链互相通信和价值交换。',
+
+  Scalable: '可扩展性',
+  ScalableDescription: '通过多链互联互操作，EOS Cochain可帮助EOS实现史无前例的无限扩展。',
+
+  DeveloperFriendly: '开发者友好',
+  DeveloperFriendlyDescription: 'EOS Cochain延续了EOS软件堆栈的WebAssembly机制，可以非常轻松地开发DAPP。',
 }
