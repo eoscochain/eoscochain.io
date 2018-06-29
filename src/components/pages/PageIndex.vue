@@ -1,10 +1,10 @@
 <template lang="pug">
 .page-index
   section-cover
-  section-events
+  // section-events
   section-what
   section-benefits
-  section-blog
+  // section-blog
 </template>
 
 <script>

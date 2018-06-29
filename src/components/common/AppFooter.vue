@@ -3,28 +3,28 @@
   section-social
   .footbot: .footbot__container
     .footbot__brandmark
-      img.footbot__img(src="~images/logos/cosmos-brandmark.png")
+      img.footbot__img(src="~images/logos/eoscochain-brandmark.png")
     .footbot-menu
-      .footbot-menu__title Foundation
+      .footbot-menu__title {{ $t('Foundation') }}
       .footbot-menu__items
-        router-link(:to="{ name: 'about'}").footbot-menu__item About
-        router-link(:to="{ name: 'events'}").footbot-menu__item Events
-        router-link(:to="{ name: 'assets'}").footbot-menu__item Visual Assets
-        a(:href="urls.fundraiser" target="_blank").footbot-menu__item Fundraiser
+        router-link(:to="{ name: 'about'}").footbot-menu__item {{ $t('About') }}
+        router-link(:to="{ name: 'events'}").footbot-menu__item {{ $t('Events') }}
+        router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
+        a(:href="urls.fundraiser" target="_blank").footbot-menu__item {{ $t('Fundraiser') }}
     .footbot-menu
-      .footbot-menu__title Learn
+      .footbot-menu__title {{ $t('Learn') }}
       .footbot-menu__items
-        router-link(:to="{ name: 'resources'}").footbot-menu__item Resources
-        router-link(:to="{ name: 'academy'}").footbot-menu__item Academy
-        router-link(:to="{ name: 'whitepaper'}").footbot-menu__item Whitepaper
-        router-link(:to="{ name: 'faq'}").footbot-menu__item FAQ
+        router-link(:to="{ name: 'resources'}").footbot-menu__item {{ $t('Resources') }}
+        router-link(:to="{ name: 'academy'}").footbot-menu__item {{ $t('Academy') }}
+        router-link(:to="{ name: 'whitepaper'}").footbot-menu__item {{ $t('Whitepaper') }}
+        router-link(:to="{ name: 'faq'}").footbot-menu__item {{ $t('FAQ') }}
     .footbot-menu
-      .footbot-menu__title Develop
+      .footbot-menu__title {{ $t('Develop') }}
       .footbot-menu__items
         // a(:href="urls.gh.cosmosSdk" target="_blank").footbot-menu__item Cosmos SDK
-        a(:href="urls.gh.voyager" target="_blank").footbot-menu__item Cosmos Voyager
+        // a(:href="urls.gh.voyager" target="_blank").footbot-menu__item {{ $t('Cosmos Voyager') }}
         // a(:href="urls.gh.tendermint" target="_blank").footbot-menu__item Tendermint Core
-        a(:href="urls.gh.lotion" target="_blank").footbot-menu__item Lotion
+        a(:href="urls.gh.lotion" target="_blank").footbot-menu__item {{ $t('Lotion') }}
 </template>
 
 <script>

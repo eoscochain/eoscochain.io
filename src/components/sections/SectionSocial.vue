@@ -1,15 +1,15 @@
 <template lang="pug">
 .section-social: .section-social__container
   .app-footer__row.app-footer__row-actions
-    part(title="View Network Status")
+    part(:title="$t('ViewNetworkStatus')")
       btn(
         type="anchor"
         :href="urls.explorer"
         icon="equalizer"
         size="lg"
         target="_blank"
-        value="Testnet Explorer")
-    part(title="Get Newsletter"): form-email-signup
+        :value="$t('TestnetExplorer')")
+    part(:title="$t('GetNewsletter')"): form-email-signup
 </template>
 
 <script>

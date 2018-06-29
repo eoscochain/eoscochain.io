@@ -12,7 +12,7 @@ import PageTestnet from "pages/PageTestnet"
 
 import PageIntro from "pages/PageIntro"
 import PageIntroIndex from "pages/PageIntroIndex"
-import PageIntroHub from "pages/PageIntroHub"
+// import PageIntroHub from "pages/PageIntroHub"
 import PageIntroFurther from "pages/PageIntroFurther"
 
 import PageDevelopers from "pages/PageDevelopers"
@@ -58,7 +58,7 @@ const routes = [
     component: PageIntro,
     children: [
       { path: "/", name: "intro", component: PageIntroIndex },
-      { path: "hub", name: "intro-hub", component: PageIntroHub },
+      // { path: "hub", name: "intro-hub", component: PageIntroHub },
       {
         path: "further",
         name: "intro-further",

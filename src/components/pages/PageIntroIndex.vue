@@ -4,8 +4,9 @@ page(:title="$t('What is EOS Cochain?')" :subtitle="$t('Get started with an over
   // text-container(url="https://api.github.com/repos/tendermint/aib-data/contents/md/intro-index.md")
   text-container(url="intro-index.md")
   text-container
-    h4 Next&hellip;
-    btn(value="Introduction to Cosmos Hub" type="link" :to="{ name: 'intro-hub' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
+    h4 {{ $t('Next') }}&hellip;
+    // btn(value="Introduction to Cosmos Hub" type="link" :to="{ name: 'intro-hub' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
+    btn(:value="$t('GoingFurther')" type="link" :to="{ name: 'intro-further' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
 </template>
 
 <script>
