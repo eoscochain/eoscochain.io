@@ -62,5 +62,7 @@ export default {
 
   'Are you a user or a validator?': 'Are you a user or a validator?',
   'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.': 'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.',
-  'I wish to participate in the testnet as a validator (Block Producer or candidate).': 'I wish to participate in the testnet as a validator (Block Producer or candidate).'
+  'I wish to participate in the testnet as a validator (Block Producer or candidate).': 'I wish to participate in the testnet as a validator (Block Producer or candidate).',
+
+  'These are the only official EOS Cochain communication channels.': 'These are the only official EOS Cochain communication channels.',
 }

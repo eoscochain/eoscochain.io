@@ -1,7 +1,7 @@
 <template lang="pug">
 page.page-community(
-  title="Community"
-  subtitle="These are the only official Cosmos communication channels.")
+  :title="$t('Community')"
+  :subtitle="$t('These are the only official EOS Cochain communication channels.')")
 
   part(title="Chat"): .community-cards
     card-social(

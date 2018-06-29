@@ -117,7 +117,7 @@ ICP链间信道促进两个区块链A和B之间的有序双向通信。ICP链间
 * **outgoing_B**: 从链B发送到链A上的ICP交易数据包，存储在链B上
 * **incoming_B**: 从链A发送出来的ICP回执数据包，存储在链B上
 
-<img src="https://github.com/zhouyasong/images/raw/master/channel.png" />
+<img src="https://github.com/zhouyasong/images/raw/master/channel.png" style="height: 350px" />
 
 
 ### 跨链通信结构体系分类
