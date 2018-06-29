@@ -1,12 +1,12 @@
 <template lang="pug">
 .page
   page-menu
-    router-link(:to="{name: 'resources'}") Overview
-    router-link(:to="{name: 'whitepaper'}") Whitepaper
-    router-link(:to="{name: 'faq'}") FAQ
-    router-link(:to="{name: 'plan'}") Plan
-    router-link(:to="{name: 'academy'}") Academy
-    router-link(:to="{name: 'delegators'}") Delegators
+    router-link(:to="{name: 'resources'}") {{ $t('Overview') }}
+    router-link(:to="{name: 'whitepaper'}") {{ $t('Whitepaper') }}
+    router-link(:to="{name: 'faq'}") {{ $t('FAQ') }}
+    router-link(:to="{name: 'plan'}") {{ $t('Plan') }}
+    router-link(:to="{name: 'academy'}") {{ $t('Academy') }}
+    router-link(:to="{name: 'delegators'}") {{ $t('Delegators') }}
   router-view
 </template>
 

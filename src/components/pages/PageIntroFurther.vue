@@ -1,6 +1,6 @@
 <template lang="pug">
 page(title="Going Further" subtitle="Wish to learn more?")
-  div(slot="menu"): btn(icon="chat" value="Community Chat" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
   part(title="More Resources")
     list-item(:to="{ name: 'whitepaper' }" title="Read the Cosmos whitepaper" icon="description")
     list-item(:to="{ name: 'faq' }" title="Read the Cosmos FAQ" icon="description")
