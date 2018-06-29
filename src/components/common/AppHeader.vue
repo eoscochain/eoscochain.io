@@ -9,13 +9,13 @@ header.app-header
     .header-item(v-if='!desktop')
     menu.menu-popup.menu-app(v-if='activeMenuApp || desktop')
       nav
-        router-link(to='/intro' @click.native='close') Introduction
-        router-link(to='/testnet' @click.native='close') Testnet
-        router-link(to='/roadmap' @click.native='close') Roadmap
-        router-link(to='/community' @click.native='close') Community
-        router-link(to='/developers' @click.native='close') Developers
-        router-link(to='/validators' @click.native='close') Validators
-        router-link(to='/resources' @click.native='close') Resources
+        router-link(to='/intro' @click.native='close') {{ $t('Introduction') }}
+        router-link(to='/testnet' @click.native='close') {{ $t('Testnet') }}
+        router-link(to='/roadmap' @click.native='close') {{ $t('Roadmap') }}
+        router-link(to='/community' @click.native='close') {{ $t('Community') }}
+        router-link(to='/developers' @click.native='close') {{ $t('Developers') }}
+        router-link(to='/validators' @click.native='close') {{ $t('Validators') }}
+        router-link(to='/resources' @click.native='close') {{ $t('Resources') }}
       nav
         a(:href='links.cosmos.blog' @click.native='close' target='_blank')
           span.label Blog
