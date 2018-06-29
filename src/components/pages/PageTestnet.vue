@@ -1,27 +1,28 @@
 <template lang="pug">
 mixin user-btns(size)
-  btn(value="Download Voyager (Alpha)" icon="cloud_download" color="primary" type="anchor" href="https://github.com/cosmos/voyager/releases" size=size)
-  btn(value="Learn More" type="link" :to="{ name: 'voyager' }" size=size)
+  // btn(value="Download Cochain Wallet (Alpha)" icon="cloud_download" color="primary" type="anchor" href="https://github.com/cosmos/voyager/releases" size=size)
+  btn(value="即将上线，敬请期待" icon="cloud_download" color="primary" type="anchor" size=size)
+  btn(:value="$t('LearnMore')" type="link" :to="{ name: 'voyager' }" size=size)
 
 mixin validator-btns(size)
-  btn(value="Follow Testnet Tutorial" icon="description" color="primary" type="link" :to="{ name: 'testnet-tutorial' }" size=size)
-  btn(value="Learn More" type="link" :to="{ name: 'validators' }" size=size)
+  btn(:value="$t('FollowTestnetTutorial')" icon="description" color="primary" type="link" :to="{ name: 'testnet-tutorial' }" size=size)
+  btn(:value="$t('LearnMore')" type="link" :to="{ name: 'validators' }" size=size)
 
 .page-testnet
   .testnet-header
-    .testnet-header__title Joining the Testnet
-    .testnet-header__subtitle Are you a user or a validator?
+    .testnet-header__title {{ $t('JoiningTheTestnet') }}
+    .testnet-header__subtitle {{ $t('Are you a user or a validator?') }}
   .testnet-options
     .testnet-option
-      .testnet-option__title User
+      .testnet-option__title {{ $t('User') }}
       .testnet-option__subtitle
-        | I wish to try using Voyager, the wallet for Cosmos tokens.
+        | {{ $t('I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.') }}
       .testnet-option__main.desktop: +user-btns("lg")
       .testnet-option__main.mobile: +user-btns()
     .testnet-option
-      .testnet-option__title Validator
+      .testnet-option__title {{ $t('Validator') }}
       .testnet-option__subtitle
-        | I wish to participate in the testnet as a validator.
+        | {{ $t('I wish to participate in the testnet as a validator (Block Producer or candidate).') }}
       .testnet-option__main.desktop: +validator-btns("lg")
       .testnet-option__main.mobile: +validator-btns()
 </template>

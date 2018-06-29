@@ -12,7 +12,7 @@
             .cosmos-panel__title {{ $t('Interoperable') }}
             .cosmos-panel__body {{ $t('InteroperableDescription') }}
             .cosmos-panel__action
-              router-link(:to="{ name: 'intro'}") Interblockchain Comms &rsaquo;
+              router-link(:to="{ name: 'intro'}") {{ $t('IntroductionToEOSCochain') }} &rsaquo;
 
         .cosmos-panel
           .cosmos-panel__image
@@ -22,7 +22,7 @@
             .cosmos-panel__title {{ $t('Scalable') }}
             .cosmos-panel__body {{ $t('ScalableDescription') }}
             .cosmos-panel__action
-              router-link(:to="{ name: 'scaling-eth'}") Scaling Ethereum &rsaquo;
+              router-link(:to="{ name: 'scaling-eos'}") {{ $t('ScalingEOS') }} &rsaquo;
 
         .cosmos-panel
           .cosmos-panel__image
@@ -32,7 +32,7 @@
             .cosmos-panel__title {{ $t('DeveloperFriendly') }}
             .cosmos-panel__body  {{ $t('DeveloperFriendlyDescription') }}
             .cosmos-panel__action
-              router-link(:to="{ name: 'developers'}") Cosmos for Developers &rsaquo;
+              router-link(:to="{ name: 'developers'}") {{ $t('DevelopForEOSCochain') }} &rsaquo;
 </template>
 
 <script>

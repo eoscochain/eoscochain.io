@@ -78,12 +78,14 @@ const routes = [
         name: "hackatom",
         component: PageDevelopersHackAtom
       },
+      /*
       {
         path: "scaling-eth",
         name: "scaling-eth",
         component: PageDevelopersScalingEth
       },
       { path: "wallet", name: "wallet", component: PageDevelopersWallet }
+      */
     ]
   },
 
@@ -201,9 +203,10 @@ const routes = [
       window.location.assign("https://riot.im/app/#/room/#cosmos:matrix.org")
     }
   },
-  { path: "/scaling-eth", redirect: "/developers/scaling-eth" },
-  { path: "/scalingeth", redirect: "/developers/scaling-eth" },
-  { path: "/scaling", redirect: "/developers/scaling-eth" },
+  // { path: "/scaling-eth", redirect: "/developers/scaling-eth" },
+  // { path: "/scalingeth", redirect: "/developers/scaling-eth" },
+  // { path: "/scaling", redirect: "/developers/scaling-eth" },
+  { path: "/scaling", redirect: "/developers/scaling-eos" },
   {
     path: "/security",
     beforeEnter: () => {
