@@ -7,7 +7,7 @@ mixin actions(size)
       icon="wifi_tethering"
       size=size
       color="primary"
-      value="Join Testnet")
+      :value="$t('joinTestnet')")
 
   .action
     btn(
@@ -16,7 +16,7 @@ mixin actions(size)
       icon="people"
       size=size
       color="primary"
-      value="Join Community")
+      :value="$t('joinCommunity')")
 
 .section-cover: .section-cover__container
   .section-cover__actions.desktop: +actions("lg")

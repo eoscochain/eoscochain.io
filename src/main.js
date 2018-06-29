@@ -5,6 +5,8 @@ import VueAnalytics from "vue-analytics"
 import VueMeta from "vue-meta"
 import VueRouter from "vue-router"
 import VueScrollTo from "vue-scrollto"
+import VueI18n from "vue-i18n"
+import ZhCn from "i18n/zh-CN"
 
 import App from "./App"
 
@@ -28,6 +30,15 @@ Vue.use(VueScrollTo, {
   x: false,
   y: true
 })
+Vue.use(VueI18n)
+
+const i18n = new VueI18n({
+  locale: 'zh-CN',
+  fallbackLocale: 'zh-CN',
+  messages: {
+    'zh-CN': ZhCn
+  }
+})
 
 Vue.config.productionTip = false
 
@@ -35,5 +46,6 @@ Vue.config.productionTip = false
 new Vue({
   el: "#app",
   router: Router,
+  i18n,
   render: h => h(App)
 })
