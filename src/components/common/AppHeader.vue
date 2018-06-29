@@ -16,10 +16,11 @@ header.app-header
         router-link(to='/developers' @click.native='close') {{ $t('Developers') }}
         router-link(to='/validators' @click.native='close') {{ $t('Validators') }}
         router-link(to='/resources' @click.native='close') {{ $t('Resources') }}
-      nav
-        a(:href='links.cosmos.blog' @click.native='close' target='_blank')
-          span.label Blog
-          i.fab.fa-medium
+      //-
+        nav
+          a(:href='links.cosmos.blog' @click.native='close' target='_blank')
+            span.label Blog
+            i.fab.fa-medium
 </template>
 
 <script>

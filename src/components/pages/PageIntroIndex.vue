@@ -1,7 +1,8 @@
 <template lang="pug">
-page(title="What is Cosmos?" subtitle="Get started with an overview of the Cosmos Network.")
+page(:title="$t('What is EOS Cochain?')" :subtitle="$t('Get started with an overview of the EOS Cochain parachain.')")
   div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
-  text-container(url="https://api.github.com/repos/tendermint/aib-data/contents/md/intro-index.md")
+  // text-container(url="https://api.github.com/repos/tendermint/aib-data/contents/md/intro-index.md")
+  text-container(url="intro-index.md")
   text-container
     h4 Next&hellip;
     btn(value="Introduction to Cosmos Hub" type="link" :to="{ name: 'intro-hub' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")

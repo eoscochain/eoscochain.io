@@ -10,6 +10,9 @@ export default {
   Overview: '概览',
   FAQ: '常见问题',
   Plan: '计划',
+  About: '关于',
+  Events: '事件',
+  VisualAssets: '视觉素材',
   Pivot: '枢纽',
   TestnetTutorial: '测试网指南',
   Whitepaper: '白皮书',
@@ -20,4 +23,7 @@ export default {
   CommunityChat: '社区沟通',
   ValidatorChat: '生产者沟通',
   ValidatorForum: '生产者论坛',
+
+  'What is EOS Cochain?': 'EOS Cochain是什么？',
+  'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链'
 }

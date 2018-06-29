@@ -22,8 +22,12 @@ export default {
     }
   },
   async mounted() {
-    let data = (await axios.get(this.url)).data
-    this.text = Base64.decode(data.content)
+    if (this.url && (this.url.startsWith('http://') || this.url.startsWith('https://'))) {
+      const data = (await axios.get(this.url)).data
+      this.text = Base64.decode(data.content)
+    } else {
+      this.text = await import(`!raw-loader!content/${this.url}`)
+    }
   },
   props: ["url"]
 }

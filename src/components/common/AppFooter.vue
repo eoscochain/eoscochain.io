@@ -21,9 +21,9 @@
     .footbot-menu
       .footbot-menu__title Develop
       .footbot-menu__items
-        a(:href="urls.gh.cosmosSdk" target="_blank").footbot-menu__item Cosmos SDK
+        // a(:href="urls.gh.cosmosSdk" target="_blank").footbot-menu__item Cosmos SDK
         a(:href="urls.gh.voyager" target="_blank").footbot-menu__item Cosmos Voyager
-        a(:href="urls.gh.tendermint" target="_blank").footbot-menu__item Tendermint Core
+        // a(:href="urls.gh.tendermint" target="_blank").footbot-menu__item Tendermint Core
         a(:href="urls.gh.lotion" target="_blank").footbot-menu__item Lotion
 </template>
 

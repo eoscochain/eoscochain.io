@@ -10,6 +10,9 @@ export default {
   Overview: 'Overview',
   FAQ: 'FAQ',
   Plan: 'Plan',
+  About: 'About',
+  Events: 'Events',
+  VisualAssets: 'Visual Assets',
   Pivot: 'Pivot',
   TestnetTutorial: 'Testnet Tutorial',
   Whitepaper: 'Whitepaper',
@@ -20,4 +23,7 @@ export default {
   CommunityChat: 'Community Chat',
   ValidatorChat: 'Block Producer Chat',
   ValidatorForum: 'Block Producer Forum',
+
+  'What is EOS Cochain?': 'What is EOS Cochain?',
+  'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.'
 }
