@@ -1,6 +1,6 @@
 <template lang="pug">
 page(title="Resources" subtitle="A curated list of resources about the Cosmos Network.")
-  div(slot="menu"): btn(icon="chat" value="Community Chat" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
   part(title="Cosmos Network")
     list-item(:to="{ name: 'whitepaper' }" title="Cosmos Whitepaper" icon="description")
     list-item(:to="{ name: 'faq' }" title="Cosmos FAQ" icon="description")

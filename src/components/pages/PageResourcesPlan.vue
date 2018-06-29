@@ -2,7 +2,7 @@
 page(
   title="Fundraiser Plan"
   subtitle="Our original plan and roadmap for the April 2017 fundraiser.")
-  div(slot="menu"): btn(icon="chat" value="Community Chat" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
   text-container(
     url='https://api.github.com/repos/tendermint/aib-data/contents/md/resources-plan.md')
 </template>

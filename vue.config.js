@@ -55,6 +55,7 @@ module.exports = {
       .set("navigation", resolve("src/components/navigation"))
       .set("pages", resolve("src/components/pages"))
       .set("sections", resolve("src/components/sections"))
+      .set("i18n", resolve("src/i18n"))
     config.module
       .rule("pdf")
       .test(/\.pdf/)

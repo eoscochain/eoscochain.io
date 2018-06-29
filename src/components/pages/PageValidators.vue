@@ -1,9 +1,9 @@
 <template lang="pug">
 .page
   page-menu
-    router-link(:to="{ name: 'validators'}") Overview
-    router-link(:to="{name: 'validator-faq'}") FAQ
-    router-link(:to="{ name: 'testnet-tutorial'}") Testnet Tutorial
+    router-link(:to="{ name: 'validators'}")  {{ $t('Overview') }}
+    router-link(:to="{name: 'validator-faq'}")  {{ $t('FAQ') }}
+    router-link(:to="{ name: 'testnet-tutorial'}")  {{ $t('TestnetTutorial') }}
   router-view
 </template>
 

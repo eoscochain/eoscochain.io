@@ -1,9 +1,9 @@
 <template lang="pug">
 .page
   page-menu
-    router-link(:to="{ name: 'intro'}") Overview
-    router-link(:to="{ name: 'intro-hub'}") Cosmos Hub
-    router-link(:to="{ name: 'intro-further'}") Going Further
+    router-link(:to="{ name: 'intro'}") {{ $t('Overview') }}
+    router-link(:to="{ name: 'intro-hub'}") {{ $t('Pivot') }}
+    router-link(:to="{ name: 'intro-further'}") {{ $t('GoingFurther') }}
   router-view
 </template>
 
