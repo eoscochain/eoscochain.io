@@ -69,4 +69,6 @@ export default {
   'I wish to participate in the testnet as a validator (Block Producer or candidate).': '我想参与测试网，作为区块生产者或候选者节点。',
 
   'These are the only official EOS Cochain communication channels.': '以下是EOS Cochain的唯一官方沟通渠道。',
+
+  'Learn about and contribute to the code that powers the EOS Cochain ecology.': '了解EOS Cochain的开发生态并贡献代码。'
 }

@@ -70,4 +70,6 @@ export default {
   'I wish to participate in the testnet as a validator (Block Producer or candidate).': 'I wish to participate in the testnet as a validator (Block Producer or candidate).',
 
   'These are the only official EOS Cochain communication channels.': 'These are the only official EOS Cochain communication channels.',
+
+  'Learn about and contribute to the code that powers the EOS Cochain ecology.': 'Learn about and contribute to the code that powers the EOS Cochain ecology.'
 }
