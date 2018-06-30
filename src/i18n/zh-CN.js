@@ -5,7 +5,7 @@ export default {
   Community: '社区',
   User: '用户',
   Developers: '开发者',
-  Validators: '区块生产者',
+  Validators: '超级节点',
   Validator: '节点',
   BlockProducer: '区块生产者',
   BlockProducerCandidate: '候选区块生产者',
@@ -38,9 +38,13 @@ export default {
   ViewNetworkStatus: '查看网络状态',
   TestnetExplorer: '测试网浏览器',
   GetNewsletter: '获取新闻通知',
+  ValidatorFAQ:'超级节点常见问题',
+
 
   'What is EOS Cochain?': 'EOS Cochain是什么？',
   'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链',
+  'Frequently asked questions and answers about Cosmos Validators.':'关于Eos Cochain常见问题的一些解答.',
+  'Some introduction about Validators.':'关于超级节点的一些说明',
 
   WhatIsPartI: 'EOS Cochain是EOS的同构并行链，帮助EOS连接多链互联生态。',
   WhatIsPartII: '作为可与EOS主链互操作的第一条并行链，EOS Cochain力图实现安全可靠、快捷便利的跨链资产转移、跨链智能合约调用。任何人都可以在EOS Cochain并行链上开发或使用跨链DAPP。',

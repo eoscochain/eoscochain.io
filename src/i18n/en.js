@@ -38,9 +38,14 @@ export default {
   ViewNetworkStatus: 'View Network Status',
   TestnetExplorer: 'Testnet Explorer',
   GetNewsletter: 'Get News letter',
+  ValidatorFAQ:"Validator FAQ",
+  Validators:'Validators',
 
   'What is EOS Cochain?': 'What is EOS Cochain?',
   'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.',
+
+  'Frequently asked questions and answers about Cosmos Validators.':'Frequently asked questions and answers about Cosmos Validators.',
+  'Some introduction about Validators.':'Some introduction about Validators.',
 
   WhatIsPartI: '', // TODO
   WhatIsPartII: '', // TODO

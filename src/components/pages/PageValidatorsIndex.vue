@@ -1,12 +1,12 @@
 <template lang="pug">
 page(
-  title="Validators"
-  subtitle="What is a Cosmos Validator? How can you run one?")
+  :title="$t('Validators')"
+  :subtitle="$t('Some introduction about Validators.')")
   div(slot="menu")
     btn(icon="chat" :value="$t('ValidatorChat')" type="anchor" href="https://riot.im/app/#/room/#cosmos_validators:matrix.org" target="_blank" color="primary")
     btn(icon="chat" :value="$t('ValidatorForum')" type="anchor" href="https://forum.cosmos.network/c/validating" target="_blank")
   text-container(
-    url='https://api.github.com/repos/tendermint/aib-data/contents/md/validators-index.md')
+    url='validators-index.md')
   text-container
     h4 Next&hellip;
     btn(value="Validator FAQ" type="link" :to="{ name: 'validator-faq' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
