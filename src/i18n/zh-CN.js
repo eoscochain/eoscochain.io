@@ -16,6 +16,7 @@ export default {
   Plan: '计划',
   About: '关于',
   Next: '下一步',
+  ComingSoon: '敬请期待',
   Events: '事件',
   VisualAssets: '视觉素材',
   Pivot: '枢纽',
@@ -59,6 +60,8 @@ export default {
   DeveloperFriendly: '开发者友好',
   DeveloperFriendlyDescription: 'EOS Cochain延续了EOS软件堆栈的WebAssembly机制，可以非常轻松地开发DAPP。',
   DevelopForEOSCochain: '开发EOS Cochain',
+
+  WalletDevelopment: '钱包开发',
 
   'Are you a user or a validator?': '你是用户还是节点？',
   'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.': '我想使用Cochain钱包，它支持EOC和EOS等币种。',

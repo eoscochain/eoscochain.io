@@ -16,6 +16,7 @@ export default {
   Plan: 'Plan',
   About: 'About',
   Next: 'Next',
+  ComingSoon: 'Coming soon',
   Events: 'Events',
   VisualAssets: 'Visual Assets',
   Pivot: 'Pivot',
@@ -59,6 +60,8 @@ export default {
   DeveloperFriendly: 'Developer Friendly',
   DeveloperFriendlyDescription: '', // TODO
   DevelopForEOSCochain: 'Develop for EOS Cochain',
+
+  WalletDevelopment: 'Wallet Development',
 
   'Are you a user or a validator?': 'Are you a user or a validator?',
   'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.': 'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.',
