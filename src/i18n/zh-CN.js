@@ -41,7 +41,6 @@ export default {
   GetNewsletter: '获取新闻通知',
   ValidatorFAQ:'超级节点常见问题',
 
-
   'What is EOS Cochain?': 'EOS Cochain是什么？',
   'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链',
   'Frequently asked questions and answers about Cosmos Validators.':'关于Eos Cochain常见问题的一些解答.',
@@ -66,6 +65,14 @@ export default {
   DevelopForEOSCochain: '开发EOS Cochain',
 
   WalletDevelopment: '钱包开发',
+  DelegatorGuide: '委托者指导',
+
+  'Wish to learn more?': '希望了解更多？',
+  'More Resources': '更多资源',
+  'Read the EOS Cochain whitepaper': '阅读EOS Cochain白皮书',
+  'Read the EOS Cochain FAQ': '查看EOS Cochain常见问题',
+  'Participate in the testnet': '加入测试网',
+  'Learn how to develop on EOS Cochain': '了解在EOS Cochain上开发',
 
   'Are you a user or a validator?': '你是用户还是节点？',
   'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.': '我想使用Cochain钱包，它支持EOC和EOS等币种。',
@@ -73,5 +80,7 @@ export default {
 
   'These are the only official EOS Cochain communication channels.': '以下是EOS Cochain的唯一官方沟通渠道。',
 
-  'Learn about and contribute to the code that powers the EOS Cochain ecology.': '了解EOS Cochain的开发生态并贡献代码。'
+  'Learn about and contribute to the code that powers the EOS Cochain ecology.': '了解EOS Cochain的开发生态并贡献代码。',
+
+  'A curated list of resources about the EOS Cochain.': 'EOS Cochain资源列表。',
 }

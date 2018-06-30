@@ -40,7 +40,6 @@ export default {
   TestnetExplorer: 'Testnet Explorer',
   GetNewsletter: 'Get News letter',
   ValidatorFAQ:"Validator FAQ",
-  Validators:'Validators',
 
   'What is EOS Cochain?': 'What is EOS Cochain?',
   'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.',
@@ -68,11 +67,22 @@ export default {
 
   WalletDevelopment: 'Wallet Development',
 
+  DelegatorGuide: 'Delegator Guide',
+
+  'Wish to learn more?': 'Wish to learn more?',
+  'More Resources': 'More Resources',
+  'Read the EOS Cochain whitepaper': 'Read the EOS Cochain whitepaper',
+  'Read the EOS Cochain FAQ': 'Read the EOS Cochain FAQ',
+  'Participate in the testnet': 'Participate in the testnet',
+  'Learn how to develop on EOS Cochain': 'Learn how to develop on EOS Cochain',
+
   'Are you a user or a validator?': 'Are you a user or a validator?',
   'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.': 'I wish to try using Cochain Wallet, the wallet for EOC and EOS tokens.',
   'I wish to participate in the testnet as a validator (Block Producer or candidate).': 'I wish to participate in the testnet as a validator (Block Producer or candidate).',
 
   'These are the only official EOS Cochain communication channels.': 'These are the only official EOS Cochain communication channels.',
 
-  'Learn about and contribute to the code that powers the EOS Cochain ecology.': 'Learn about and contribute to the code that powers the EOS Cochain ecology.'
+  'Learn about and contribute to the code that powers the EOS Cochain ecology.': 'Learn about and contribute to the code that powers the EOS Cochain ecology.',
+
+  'A curated list of resources about the EOS Cochain.': 'A curated list of resources about the EOS Cochain.',
 }
