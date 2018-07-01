@@ -3,6 +3,8 @@
   section-cover
   // section-events
   section-what
+  div(style="width: 100%; text-align: center; margin-top: 5rem;")
+    img(src="~images/roadmap/roadmap.png" style="max-width: 100%; max-height: 100%; text-align: center;")
   section-benefits
   // section-blog
 </template>

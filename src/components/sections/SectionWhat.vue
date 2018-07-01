@@ -67,6 +67,9 @@ export default {
   text-align center
 
 .section-home__text
+  margin-bottom 3rem
+
+.section-home__text
 .section-home__p
   max-width 34rem
   margin-left auto

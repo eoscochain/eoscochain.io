@@ -56,7 +56,7 @@ export default {
 .section-cover__actions
   position absolute
   bottom 0
-  margin-bottom 3rem
+  margin-bottom 1rem
   display flex
   flex-flow column nowrap
   align-items center

@@ -45,11 +45,11 @@ export default {
   about:'关于我们',
 
   'What is EOS Cochain?': 'EOS Cochain是什么？',
-  'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链',
-  'Frequently asked questions and answers about Cosmos Validators.':'关于Eos Cochain常见问题的一些解答.',
-  'Some introduction about Validators.':'关于超级节点的一些说明',
+  'Get started with an overview of the EOS Cochain parachain.': '开始了解EOS Cochain并行链。',
+  'Frequently asked questions and answers about Cosmos Validators.':'关于Eos Cochain常见问题的一些解答。',
+  'Some introduction about Validators.':'关于超级节点的一些说明。',
   'Answers to frequently asked questions about the EOS Cochain Network.':'解答EOS Cochain的一些常见问题。',
-  'Learn how to build a single node':'学习如何构建EOS Cochain节点',
+  'Learn how to build a single node':'学习如何构建EOS Cochain节点。',
     'EOS Cochain is supported by the Cochain Foundation .':'EOS Cochain由Cochain基金会提供资助和开发。',
 
   WhatIsPartI: 'EOS Cochain是EOS的同构并行链，帮助EOS连接多链互联生态。',
