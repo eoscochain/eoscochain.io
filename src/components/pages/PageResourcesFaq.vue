@@ -1,7 +1,9 @@
 <template lang="pug">
-page(title="Cosmos FAQ" subtitle="Answers to frequently asked questions about the Cosmos Network.")
+page(
+  :title="$t('EOSCochainFAQ')"
+  :subtitle="$t('Answers to frequently asked questions about the EOS Cochain Network.')")
   div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
-  text-container(url="https://api.github.com/repos/tendermint/aib-data/contents/md/resources-faq.md")
+  text-container(url="resources-faq.md")
 </template>
 
 <script>

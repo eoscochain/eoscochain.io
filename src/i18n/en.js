@@ -39,10 +39,11 @@ export default {
   TestnetExplorer: 'Testnet Explorer',
   GetNewsletter: 'Get News letter',
   ValidatorFAQ:"Validator FAQ",
-  Validators:'Validators',
+  EOSCochainFAQ:"EOS Cochain FAQ",
 
   'What is EOS Cochain?': 'What is EOS Cochain?',
   'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.',
+  'Answers to frequently asked questions about the EOS Cochain Network.':'Answers to frequently asked questions about the EOS Cochain Network.',
 
   'Frequently asked questions and answers about Cosmos Validators.':'Frequently asked questions and answers about Cosmos Validators.',
   'Some introduction about Validators.':'Some introduction about Validators.',
