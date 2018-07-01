@@ -1,5 +1,6 @@
 <template lang="pug">
-form.form-email-signup.validate.form(action='//network.us14.list-manage.com/subscribe/post?u=1b8aeaa81ca615914eb2eb7fc&id=64c73f9f5f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+// form.form-email-signup.validate.form(action='//network.us14.list-manage.com/subscribe/post?u=1b8aeaa81ca615914eb2eb7fc&id=64c73f9f5f', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+form.form-email-signup.validate.form(action='/', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
 
   field#mce-EMAIL(name='EMAIL', type='email', size='lg', placeholder='name@email.com')
 

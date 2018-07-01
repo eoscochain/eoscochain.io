@@ -10,12 +10,12 @@
         router-link(:to="{ name: 'about'}").footbot-menu__item {{ $t('About') }}
         router-link(:to="{ name: 'events'}").footbot-menu__item {{ $t('Events') }}
         router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
-        a(:href="urls.fundraiser" target="_blank").footbot-menu__item {{ $t('Fundraiser') }}
+        // a(:href="urls.fundraiser" target="_blank").footbot-menu__item {{ $t('Fundraiser') }}
     .footbot-menu
       .footbot-menu__title {{ $t('Learn') }}
       .footbot-menu__items
         router-link(:to="{ name: 'resources'}").footbot-menu__item {{ $t('Resources') }}
-        router-link(:to="{ name: 'academy'}").footbot-menu__item {{ $t('Academy') }}
+        // router-link(:to="{ name: 'academy'}").footbot-menu__item {{ $t('Academy') }}
         router-link(:to="{ name: 'whitepaper'}").footbot-menu__item {{ $t('Whitepaper') }}
         router-link(:to="{ name: 'faq'}").footbot-menu__item {{ $t('FAQ') }}
     .footbot-menu

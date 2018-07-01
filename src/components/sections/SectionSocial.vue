@@ -4,11 +4,18 @@
     part(:title="$t('ViewNetworkStatus')")
       btn(
         type="anchor"
-        :href="urls.explorer"
+        href="/"
         icon="equalizer"
         size="lg"
         target="_blank"
         :value="$t('TestnetExplorer')")
+      // btn(
+      //  type="anchor"
+      //  :href="urls.explorer"
+      //  icon="equalizer"
+      //  size="lg"
+      //  target="_blank"
+      //  :value="$t('TestnetExplorer')")
     part(:title="$t('GetNewsletter')"): form-email-signup
 </template>
 
