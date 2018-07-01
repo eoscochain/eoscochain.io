@@ -1,6 +1,7 @@
 <template lang="pug">
-page(:title="$t('What is EOS Cochain?')" :subtitle="$t('Get started with an overview of the EOS Cochain parachain.')")
-  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+page(:title="$t('What is EOS Cochain?')"
+     :subtitle="$t('Get started with an overview of the EOS Cochain parachain.')")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank" color="primary")
   // text-container(url="https://api.github.com/repos/tendermint/aib-data/contents/md/intro-index.md")
   text-container(url="intro-index.md")
   text-container

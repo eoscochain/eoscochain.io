@@ -1,6 +1,6 @@
 <template lang="pug">
 page(:title="$t('GoingFurther')" :subtitle="$t('Wish to learn more?')")
-  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank" color="primary")
   part(:title="$t('More Resources')")
     list-item(:to="{ name: 'whitepaper' }" :title="$t('Read the EOS Cochain whitepaper')" icon="description")
     list-item(:to="{ name: 'faq' }" :title="$t('Read the EOS Cochain FAQ')" icon="description")

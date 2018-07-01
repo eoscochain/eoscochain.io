@@ -1,6 +1,6 @@
 <template lang="pug">
 page(:title="$t('Developers')" :subtitle="$t('Learn about and contribute to the code that powers the EOS Cochain ecology.')")
-  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank" color="primary")
   text-container(url="developers-index.md")
 </template>
 
