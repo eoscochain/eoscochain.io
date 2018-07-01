@@ -3,8 +3,8 @@ page(
   :title="$t('Validators')"
   :subtitle="$t('Some introduction about Validators.')")
   div(slot="menu")
-    btn(icon="chat" :value="$t('ValidatorChat')" type="anchor" href="https://riot.im/app/#/room/#cosmos_validators:matrix.org" target="_blank" color="primary")
-    btn(icon="chat" :value="$t('ValidatorForum')" type="anchor" href="https://forum.cosmos.network/c/validating" target="_blank")
+    btn(icon="chat" :value="$t('ValidatorChat')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank" color="primary")
+    btn(icon="chat" :value="$t('ValidatorForum')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank")
   text-container(
     url='validators-index.md')
   text-container
