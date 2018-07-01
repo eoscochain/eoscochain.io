@@ -2,7 +2,7 @@
 page(
   :title="$t('EOSCochainFAQ')"
   :subtitle="$t('Answers to frequently asked questions about the EOS Cochain Network.')")
-  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://riot.im/app/#/group/+cosmos:matrix.org" target="_blank" color="primary")
+  div(slot="menu"): btn(icon="chat" :value="$t('CommunityChat')" type="anchor" href="https://t.me/EOSCochainProject" target="_blank" color="primary")
   text-container(url="resources-faq.md")
 </template>
 
