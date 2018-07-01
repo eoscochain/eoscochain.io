@@ -2,7 +2,7 @@
 mixin user-btns(size)
   // btn(value="Download Cochain Wallet (Alpha)" icon="cloud_download" color="primary" type="anchor" href="https://github.com/cosmos/voyager/releases" size=size)
   btn(value="即将上线，敬请期待" icon="cloud_download" color="primary" type="anchor" size=size)
-  btn(:value="$t('LearnMore')" type="link" :to="{ name: 'voyager' }" size=size)
+  btn(:value="$t('LearnMore')" type="anchor" href="https://cochain.io" target="_blank" size=size)
 
 mixin validator-btns(size)
   btn(:value="$t('FollowTestnetTutorial')" icon="description" color="primary" type="link" :to="{ name: 'testnet-tutorial' }" size=size)
