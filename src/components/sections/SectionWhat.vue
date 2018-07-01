@@ -4,7 +4,7 @@
   .section-home__main
     .section-home__text
       .section-home__p {{ $t('WhatIsPartI') }}
-      .section-home__p  {{ $t('WhatIsPartII') }}
+      .section-home__p {{ $t('WhatIsPartII') }}
     .section-home__action
       div
         .intro
