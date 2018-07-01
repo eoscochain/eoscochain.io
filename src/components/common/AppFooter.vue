@@ -9,7 +9,7 @@
       .footbot-menu__items
         router-link(:to="{ name: 'about'}").footbot-menu__item {{ $t('About') }}
         router-link(:to="{ name: 'events'}").footbot-menu__item {{ $t('Events') }}
-        router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
+      //  router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
         // a(:href="urls.fundraiser" target="_blank").footbot-menu__item {{ $t('Fundraiser') }}
     .footbot-menu
       .footbot-menu__title {{ $t('Learn') }}

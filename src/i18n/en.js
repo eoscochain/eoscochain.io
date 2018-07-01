@@ -41,12 +41,13 @@ export default {
   GetNewsletter: 'Get News letter',
   ValidatorFAQ:"Validator FAQ",
   EOSCochainFAQ:"EOS Cochain FAQ",
-
+  about:"about",
 
   'What is EOS Cochain?': 'What is EOS Cochain?',
   'Get started with an overview of the EOS Cochain parachain.': 'Get started with an overview of the EOS Cochain parachain.',
   'Answers to frequently asked questions about the EOS Cochain Network.':'Answers to frequently asked questions about the EOS Cochain Network.',
   'Learn how to build a single node on the EOS Cochain testnet.':'Learn how to build a single node',
+  'EOS Cochain is supported by the Cochain Foundation .':'EOS Cochain is supported by the Cochain Foundation .',
 
   'Frequently asked questions and answers about Cosmos Validators.':'Frequently asked questions and answers about Cosmos Validators.',
   'Some introduction about Validators.':'Some introduction about Validators.',
