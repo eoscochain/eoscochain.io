@@ -18,6 +18,7 @@ export default {
   Next: 'Next',
   ComingSoon: 'Coming soon',
   Events: 'Events',
+  Blog: 'Blog',
   VisualAssets: 'Visual Assets',
   Pivot: 'Pivot',
   TestnetTutorial: 'Testnet Tutorial',

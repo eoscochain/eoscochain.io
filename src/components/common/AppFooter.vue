@@ -9,7 +9,8 @@
       .footbot-menu__items
         router-link(:to="{ name: 'about'}").footbot-menu__item {{ $t('About') }}
         router-link(:to="{ name: 'events'}").footbot-menu__item {{ $t('Events') }}
-      //  router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
+        router-link(:to="{ name: 'blog'}").footbot-menu__item {{ $t('Blog') }}
+        // router-link(:to="{ name: 'assets'}").footbot-menu__item {{ $t('VisualAssets') }}
         // a(:href="urls.fundraiser" target="_blank").footbot-menu__item {{ $t('Fundraiser') }}
     .footbot-menu
       .footbot-menu__title {{ $t('Learn') }}
@@ -21,10 +22,13 @@
     .footbot-menu
       .footbot-menu__title {{ $t('Develop') }}
       .footbot-menu__items
+        a(href="https://github.com/eoscochain/eoscochain" target="_blank").footbot-menu__item EOS Cochain
+        a(href="https://github.com/eoscochain/eos-contracts/tree/master/icp" target="_blank").footbot-menu__item 跨链合约
+        a(href="https://github.com/eoscochain/eos-relay" target="_blank").footbot-menu__item 跨链中继
         // a(:href="urls.gh.cosmosSdk" target="_blank").footbot-menu__item Cosmos SDK
         // a(:href="urls.gh.voyager" target="_blank").footbot-menu__item {{ $t('Cosmos Voyager') }}
         // a(:href="urls.gh.tendermint" target="_blank").footbot-menu__item Tendermint Core
-        a(:href="urls.gh.lotion" target="_blank").footbot-menu__item {{ $t('Lotion') }}
+        // a(:href="urls.gh.lotion" target="_blank").footbot-menu__item {{ $t('Lotion') }}
 </template>
 
 <script>

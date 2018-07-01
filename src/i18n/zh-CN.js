@@ -18,6 +18,7 @@ export default {
   Next: '下一步',
   ComingSoon: '敬请期待',
   Events: '事件',
+  Blog: '博客',
   VisualAssets: '视觉素材',
   Pivot: '枢纽',
   TestnetTutorial: '测试网指南',
