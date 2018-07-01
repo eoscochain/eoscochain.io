@@ -73,6 +73,9 @@ export default {
   WalletDevelopment: '钱包开发',
   DelegatorGuide: '委托者指导',
 
+  Chat: '沟通',
+  Forums: '论坛',
+
   'Roadmap to Launch': '正式上线路线图',
 
   'Wish to learn more?': '希望了解更多？',

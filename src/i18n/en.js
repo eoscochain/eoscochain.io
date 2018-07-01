@@ -74,6 +74,9 @@ export default {
   WalletDevelopment: 'Wallet Development',
   DelegatorGuide: 'Delegator Guide',
 
+  Chat: 'Chat',
+  Forums: 'Forums',
+
   'Roadmap to Launch': 'Roadmap to Launch',
 
   'Wish to learn more?': 'Wish to learn more?',

@@ -3,60 +3,40 @@ page.page-community(
   :title="$t('Community')"
   :subtitle="$t('These are the only official EOS Cochain communication channels.')")
 
-  part(title="Chat"): .community-cards
+  part(:title="$t('Chat')"): .community-cards
     card-social(
-      dt="All Matrix Chats"
-      dd="View +cosmos:matrix.org"
+      dt="Wechat"
+      dd="Add the secretary to join us on Wechat : jimlucky008"
       icon-type="mi"
-      icon="chat"
-      anchor="https://riot.im/app/#/group/+cosmos:matrix.org")
+      icon="chat")
     card-social(
-      dt="Community Chat"
-      dd="Join #cosmos:matrix.org"
+      dt="QQ"
+      dd="Join us on QQ Grop : 721739777"
       icon-type="mi"
-      icon="chat"
-      :anchor="links.cosmos.community.matrix")
+      icon="chat")
     card-social(
-      dt="Cosmos SDK Chat"
-      dd="Join #cosmos-sdk:matrix.org"
-      icon-type="mi"
-      icon="chat"
-      anchor="https://riot.im/app/#/room/#cosmos-sdk:matrix.org")
-    card-social(
-      dt="Cosmos Validator Chat"
-      dd="Join #cosmos_validators:matrix.org"
-      icon-type="mi"
-      icon="chat"
-      anchor="https://riot.im/app/#/room/#cosmos_validators:matrix.org")
-    card-social(
-      dt="Tendermint Chat"
-      dd="Join #tendermint:matrix.org"
-      icon-type="mi"
-      icon="chat"
-      anchor="https://riot.im/app/#/room/#tendermint:matrix.org")
-    card-social(
-      dt="Ethermint Chat"
-      dd="Join #ethermint:matrix.org"
-      icon-type="mi"
-      icon="chat"
-      anchor="https://riot.im/app/#/room/#ethermint:matrix.org")
-    card-social(
-      dt="Telegram"
-      dd="Join cosmosproject on Telegram"
+      dt="Telegram Chinese Channel"
+      dd="Join us on Telegram"
       icon="telegram"
-      :anchor="links.cosmos.community.telegram")
-  part(title="Forums"): .community-cards
+      anchor="https://t.me/EOSCochainProject")
     card-social(
-      dt="Official Forum"
-      dd="Discuss the Cosmos Network"
-      icon="discourse"
-      :anchor="links.cosmos.community.discourse")
+      dt="Telegram English Channel"
+      dd="Join us on Telegram"
+      icon="telegram"
+      anchor="https://t.me/EOSCochainEn")
     card-social(
-      dt="Reddit"
+      dt="Weibo"
+      dd="Focus on us on Weibo"
+      icon-type="mi"
+      icon="chat"
+      anchor="https://www.weibo.com/eoscochain")
+  // part(:title="$t('Forums')"): .community-cards
+    card-social(
+      dt="WeChat Admin Platform"
       dd="Subscribe to /r/cosmosnetwork"
-      icon="reddit"
+      icon="weChat"
       :anchor="links.cosmos.community.reddit")
-  part(title="Social Media"): .community-cards
+      part(title="Social Media"): .community-cards
     card-social(
       dt="Twitter"
       dd="Follow @cosmos, our official account"
