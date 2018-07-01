@@ -71,8 +71,9 @@ export default {
   DevelopForEOSCochain: 'Develop for EOS Cochain',
 
   WalletDevelopment: 'Wallet Development',
-
   DelegatorGuide: 'Delegator Guide',
+
+  'Roadmap to Launch': 'Roadmap to Launch',
 
   'Wish to learn more?': 'Wish to learn more?',
   'More Resources': 'More Resources',

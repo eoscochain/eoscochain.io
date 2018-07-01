@@ -4,9 +4,10 @@
     .overall-progress__outer
       .overall-progress__inner(:style="overallProgressStyle")
     .overall-progress__label
-      .label__key Roadmap to Launch
+      .label__key {{ $t('Roadmap to Launch') }}
       .label__value {{ overallProgressPct }}% #[span.desktop-inline Complete]
-
+  page(:title="$t('ComingSoon')")
+//
   .projects-container: .projects
     .dependency-arrow(
       v-for="a in arrows"
@@ -78,12 +79,14 @@
 import { mapGetters } from "vuex"
 import PageMenu from "common/NiPageMenu"
 import CardNode from "cards/CardNode"
+import Page from "common/NiPage"
 export default {
   name: "page-roadmap",
   metaInfo: { title: "Roadmap" },
   components: {
     PageMenu,
-    CardNode
+    CardNode,
+    Page
   },
   computed: {
     ...mapGetters(["roadmap", "urls"]),
@@ -119,6 +122,8 @@ export default {
       return { width: this.guiProgressPct + "%" }
     },
     overallProgressPct() {
+      const kiddingme = true
+      if (kiddingme) return 10 // TODO(RWX)
       if (this.nodes && this.nodes.hub) {
         let totalNodes = this.nodes.hub.concat(this.nodes.sdk)
         totalNodes = totalNodes.concat(this.nodes.tmc)
