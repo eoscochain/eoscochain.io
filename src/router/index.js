@@ -18,7 +18,7 @@ import PageIntroFurther from "pages/PageIntroFurther"
 import PageDevelopers from "pages/PageDevelopers"
 import PageDevelopersIndex from "pages/PageDevelopersIndex"
 import PageDevelopersHackAtom from "pages/PageDevelopersHackAtom"
-import PageDevelopersScalingEth from "pages/PageDevelopersScalingEth"
+import PageDevelopersScalingEOS from "pages/PageDevelopersScalingEOS"
 import PageDevelopersWallet from "pages/PageDevelopersWallet"
 
 import PageValidators from "pages/PageValidators"
@@ -78,14 +78,12 @@ const routes = [
         name: "hackatom",
         component: PageDevelopersHackAtom
       },
-      /*
       {
-        path: "scaling-eth",
-        name: "scaling-eth",
-        component: PageDevelopersScalingEth
+        path: "scaling-eos",
+        name: "scaling-eos",
+        component: PageDevelopersScalingEOS
       },
       { path: "wallet", name: "wallet", component: PageDevelopersWallet }
-      */
     ]
   },
 

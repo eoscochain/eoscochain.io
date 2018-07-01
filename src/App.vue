@@ -23,7 +23,7 @@ export default {
   computed: {
     ...mapGetters(["notifications"])
   },
-  metaInfo: {
+  /* metaInfo: {
     link: [
       {
         rel: "apple-touch-icon",
@@ -91,11 +91,14 @@ export default {
     // all titles will be injected into this template
     titleTemplate: "%s - Cosmos Network"
   },
+  */
   mounted() {
+    /*
     this.$store.commit("initializeLinks")
     this.$store.commit("initializeEvents")
     this.$store.commit("initializePeople")
     this.$store.commit("initializeBlog")
+    */
   },
   store
 }
