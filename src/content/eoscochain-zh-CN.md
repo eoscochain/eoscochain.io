@@ -79,8 +79,7 @@ x → A:send(msgi ) ⇒ x → B:receive(msgi )
 y → B:receive(msgi ) ⇒ y → A:receipt(msgi )
 ```
 
-
-<img src="https://github.com/zhouyasong/images/raw/master/vector-clock.png" width=300 height=300 />
+<img src="/images/vector-clock.png" style="height: 300px">
 
 例如，跨链协议可能希望允许单个标记化资产在多个区块链之间进行传输并保留，同时保持可用性和节约资源。当一个特定的ICP数据包被提交给链B时，链B接收数据包并创建资产凭证，并要求链A再发送一份确认B上资产凭证已生成的回执证明。
 
@@ -117,7 +116,7 @@ ICP链间信道促进两个区块链A和B之间的有序双向通信。ICP链间
 * **outgoing_B**: 从链B发送到链A上的ICP交易数据包，存储在链B上
 * **incoming_B**: 从链A发送出来的ICP回执数据包，存储在链B上
 
-<img src="https://github.com/zhouyasong/images/raw/master/channel.png" style="height: 350px" />
+<img src="/images/channel.png" style="height: 300px">
 
 
 ### 跨链通信结构体系分类
@@ -147,6 +146,8 @@ EOS Cochain并行链与EOS主链之间的同构跨链，涉及以下组件：
 EOS Cochain在不远的将来，还将参与到Cochain异构跨链生态中，作为连接EOS主链和异构跨链网络的桥梁。Cochain异构跨链网络，将广泛容纳和连接全球最前沿主流公链，使得形态各异、应用场景千差万别的异构链之间的直接通信成为可能，构建多链高速公路网络。EOS Cochain也将因为这样纽带性的角色地位，不仅大大提升自身价值，也促成EOS生态和其他公链生态的紧密融合与协作。
 
 EOS Cochain并行链采用EOSIO软件，做若干系统参数修改或功能增强，与EOS主链将**有且仅有**如下提及的差异，除此之外，拥有EOS主链的其他所有特性或功能，包括BFT-DPOS共识算法、基于权限控制的命名账户体系、智能合约等。
+
+<img src = "/images/eos-cochain.jpg" style="height: 300px">
 
 ### 同构跨链协议（Isomorphic Inter-Chain Protocol, ICP）
 
@@ -320,6 +321,7 @@ EOS Cochain链上治理，将采取有别于EOS主链的提案投票方式：
 ### 异构跨链连接
 我们相信未来的区块链不仅在去中心化社区中得到商业落地前景，千万中小企业同样需要区块链作为价值传递的基础服务，未来不仅是公有链、联盟链还是企业内部的私有链，都需要一个在一个公用网络中进行价值传递和证明。
 作为第一条EOS同构并行链，我们将在开发EOS Cochain的基础上，继续探索和研究异构链的跨链协议，不仅要为EOS生态做出支持百万tps的并行链体系，更要为整个EOS体系连接异构链做出创造性的贡献，作为连接EOS主链及整个EOS跨链群体系与其他区块链链的纽带，为所有异构区块链公链、联盟链、私有链实现安全、快捷、无限扩展的区块链生态体系！
+<img src = "/images/heterogeneous.png" style = "heigt: 300 px">
 ### Cochain 钱包
 Cochian钱包是EOS跨链群体系的关键入口，是一个多币种跨链钱包，目的为垂直进入EOS跨链群体系，作为EOS生态跨链群体系的生态入口，提供跨链转账，跨链资产兑换，跨链DAPP的应用平台。未来，Cochain钱包将继续支持异构链跨链体系，作为区块链万链互联的应用平台入口。
 
@@ -354,7 +356,7 @@ EOS Cochain的初始代币分配方案和实施细则如下：
 4. 20% 用于奖励给EOS Cochain代码贡献者，由cochain持有，代币分配初始锁定，EOS Cochain上线后按每月百分之五比例线性释放。
 
 
-<img src="https://github.com/zhouyasong/images/raw/master/token.png" width=400 height=300 />
+<img src="/images/token.png" style="height: 300px">
 
 
 ### 网络维护及节点奖励机制
@@ -369,11 +371,11 @@ EOS Cochain的初始代币分配方案和实施细则如下：
 
 （二）、第二阶段 （19.1月-19.5月）
 
-建设EOS Cochain生态开发，完成与eos主网跨链互联，建立开发者社区，推进开发者进入EOS Cochain生态建设工作，开发跨链DAPP。
+完成与eos主网跨链互联，建立开发者社区，建设EOS Cochain生态开发，推进开发者进入EOS Cochain生态建设工作，开发跨链DAPP。
 
 （三）、第三阶段 （19.5月- ）
 
-完善跨链协议，开发统一协议规范，集成开发环境，帮助eos生态完成各大并行链开发对接工作。
+完善跨链协议，开发统一协议规范，集成开发环境，帮助eos生态完成各大并行链开发对接工作，开始研究开发异构跨链协议。
 
 ## 相关工作
 
