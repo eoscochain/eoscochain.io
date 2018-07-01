@@ -8,8 +8,8 @@ page(
   text-container(
     url='validators-index.md')
   text-container
-    h4 Next&hellip;
-    btn(value="Validator FAQ" type="link" :to="{ name: 'validator-faq' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
+    h4 {{ $t('Next') }}&hellip;
+    btn(:value="$t('ValidatorFAQ')" type="link" :to="{ name: 'validator-faq' }" icon="chevron_right" icon-pos="right" color="primary" size="lg")
 </template>
 
 <script>

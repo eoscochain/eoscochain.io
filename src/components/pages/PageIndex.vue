@@ -15,7 +15,7 @@ import SectionWhat from "sections/SectionWhat"
 import SectionBenefits from "sections/SectionBenefits"
 export default {
   name: "page-index",
-  metaInfo: { title: "Internet of Blockchains" },
+  metaInfo: { title: "EOS Cochain - Parachain of EOS Mainnet" },
   components: {
     SectionBlog,
     SectionCover,
