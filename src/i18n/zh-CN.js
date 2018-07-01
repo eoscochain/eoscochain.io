@@ -49,7 +49,7 @@ export default {
   'Some introduction about Validators.':'关于超级节点的一些说明',
   'Answers to frequently asked questions about the EOS Cochain Network.':'解答EOS Cochain的一些常见问题。',
   'Learn how to build a single node':'学习如何构建EOS Cochain节点',
-    'EOS Cochain is supported by the Cochain Foundation .':'EOS Cochain由Cochain 基金会提供资助和开发。',
+    'EOS Cochain is supported by the Cochain Foundation .':'EOS Cochain由Cochain基金会提供资助和开发。',
 
   WhatIsPartI: 'EOS Cochain是EOS的同构并行链，帮助EOS连接多链互联生态。',
   WhatIsPartII: '作为可与EOS主链互操作的第一条并行链，EOS Cochain力图实现安全可靠、快捷便利的跨链资产转移、跨链智能合约调用。任何人都可以在EOS Cochain并行链上开发或使用跨链DAPP。',
@@ -71,6 +71,8 @@ export default {
 
   WalletDevelopment: '钱包开发',
   DelegatorGuide: '委托者指导',
+
+  'Roadmap to Launch': '正式上线路线图',
 
   'Wish to learn more?': '希望了解更多？',
   'More Resources': '更多资源',
