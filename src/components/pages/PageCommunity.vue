@@ -6,12 +6,12 @@ page.page-community(
   part(:title="$t('Chat')"): .community-cards
     card-social(
       dt="Wechat"
-      dd="Add the secretary to join us on Wechat : jimlucky008"
+      dd="Add the secretary to join us on Wechat: jimlucky008"
       icon-type="mi"
       icon="chat")
     card-social(
       dt="QQ"
-      dd="Join us on QQ Grop : 721739777"
+      dd="Join us on QQ Group: 721739777"
       icon-type="mi"
       icon="chat")
     card-social(
