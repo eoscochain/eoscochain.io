@@ -2,7 +2,7 @@
 
 #### 并行链
 
-EOS Cochain仓库，从<a href="https://github.com/EOSIO/eos" target="_blank">EOS仓库</a>fork而来，将基于EOS Cochain的宪法和理念，做适当定制和增强。包括但不限于，系统参数修改、系统合约增强、增加插件、安全补丁。EOS Cochain将成为EOS同构跨链的标杆，并在不远的将来，参与到Cochain异构跨链生态中，为EOS打开通往价值互联网的大门。
+EOS Cochain仓库，从<a href="https://github.com/EOSIO/eos" target="_blank">EOS仓库</a>fork而来，将基于EOS Cochain的宪法和理念，做适当定制和增强。包括但不限于，系统参数修改、系统合约增强、增加插件、安全补丁。EOS Cochain将成为EOS同构跨链的标杆，并在不远的将来，参与到Cochain异构跨链生态中，为EOS同构链群打开通往价值互联网的大门。
 
 - <a href="https://github.com/eoscochain/eoscochain" target="_blank">EOS Cochain <i class="fab fa-github"></i></a>
 

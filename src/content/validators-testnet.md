@@ -1,7 +1,7 @@
 
 # 连接测试网络
 
-这篇文章向我们详细展示如何连接到EOS Cochain测试网络。最终我们可以通过这个测试网络连接到EOS主网中。
+这篇文章向我们详细展示如何连接到EOS Cochain测试网络。最终我们可以通过这个测试网络连接到EOS主链。
 
 ## 连接指南
 
@@ -42,7 +42,6 @@ git submodule update --init --recursive
 6. Ubuntu 18.04 LTS
 7. MacOS Darwin 10.12 and higher (MacOS 10.13.x recommended)
 
-
 #### 系统配置要求
 
 * 8GB RAM 空间
@@ -74,13 +73,12 @@ cd build
 make test
 ```
 #### 安装可执行文件
-为了方便开发智能合约，你可以使用 `make install` 指令把EOS Cochain可执行文件放入 `/usr/local` 目录下，这一步需要在 `build` 目录下执行。为了出现权限管理问题，使用 `sudo` 权限是很有必要的。
+为了方便开发智能合约，你可以使用 `make install` 指令把EOS Cochain可执行文件放入 `/usr/local` 目录下，这一步需要在 `build` 目录下执行。为了避免出现权限管理问题，使用 `sudo` 权限是很有必要的。
 
 ```
 cd build
 sudo make install
 ```
-
 
 #### 创建一个单节点测试网络
 成功构建完项目之后，你可以在 `build/programs/nodeos` 目录下找到EOS
@@ -104,7 +102,7 @@ eosio generated block 5e527ee2... #101528 @ 2018-04-01T14:24:58.500 with 0 trxs
 
 #### 使用Docker构建
 
-使用Docker简单快速的创建EOS Cochain也是可行的，你可以在 Docker README里面看到 EOS Cochain Docker的最近信息。 
+使用Docker简单快速的创建EOS Cochain也是可行的，你可以在Docker README里面看到EOS Cochain的关于Docker的最新信息。 
 
 **构建EOS Cochian Docker 镜像**
 
