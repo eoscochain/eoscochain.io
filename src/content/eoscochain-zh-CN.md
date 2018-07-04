@@ -422,21 +422,20 @@ EOS Cochain秉承构建区块链互通互联的使命，打造EOS跨链通信网
 
 ## 引用
 
-* 1.bitcoin: https://bitcoin.org/bitcoin.pdf
-* 2.ethereum: https://github.com/ethereum/wiki/wiki/White-Paper
-* 3.zero-cash: http://zerocash-project.org/paper
-* 4.monero: https://getmonero.org/
-* 5.EOS: https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
-* 6.blockone: https://block.one/
-* 7.JIT: https://en.wikipedia.org/wiki/Just-in-time_compilation
-* 8.Merkle Tree: https://en.wikipedia.org/wiki/Merkle_tree
-* 9.Message Queue: https://en.wikipedia.org/wiki/Message_queue
-* 10.cosmos: https://cosmos.network/docs/resources/whitepaper.html
-* 11.polkadot: https://polkadot.network/Polkadot-lightpaper.pdf
-* 12.filecoin: https://filecoin.io/filecoin.pdf
-* 13.BFT: https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
-* 14.tendermint: https://tendermint.com/docs/
-
+1. bitcoin: https://bitcoin.org/bitcoin.pdf
+2. ethereum: https://github.com/ethereum/wiki/wiki/White-Paper
+3. zero-cash: http://zerocash-project.org/paper
+4. monero: https://getmonero.org/
+5. EOS: https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md
+6. blockone: https://block.one/
+7. JIT: https://en.wikipedia.org/wiki/Just-in-time_compilation
+8. Merkle Tree: https://en.wikipedia.org/wiki/Merkle_tree
+9. Message Queue: https://en.wikipedia.org/wiki/Message_queue
+10. cosmos: https://cosmos.network/docs/resources/whitepaper.html
+11. polkadot: https://polkadot.network/Polkadot-lightpaper.pdf
+12. filecoin: https://filecoin.io/filecoin.pdf
+13. BFT: https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
+14. tendermint: https://tendermint.com/docs/
 
 [1]:https://bitcoin.org/bitcoin.pdf
 [2]:https://github.com/ethereum/wiki/wiki/White-Paper
